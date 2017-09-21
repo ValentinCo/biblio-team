@@ -62,21 +62,26 @@
         <h2 class="text-center text-lg text-uppercase my-0">
           <strong>Livres</strong>
         </h2>
+
         <hr class="divider">
         <div class="row">
+                    <!-- tableau des livres ici  -->
+        <?php
+          include('js/listing.php')
+          ?>
           <div class="col-lg-6">
+          <div id="array">
+        </table>
 
-            <!-- tableau des livres ici  -->
-  
-            
+          </div>
           </div>
         </div>
+
       </div>
 
 
-
     </div>
-    <!-- /.container -->
+        <!-- /.container -->
 
     <footer class="bg-faded text-center py-5">
       <div class="container">
